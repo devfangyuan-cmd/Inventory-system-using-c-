@@ -134,7 +134,7 @@ void removeItem(string itemNames[], int itemQty[], int itemCount) {
     }
 }
 
-//Function what is inside the inventory
+//Function shows what is inside the inventory
 void checkInventory(string itemNames[], int itemQty[], int itemCount) {
     if (itemCount == 0) {
         cout << "Inventory is empty!" << endl;
@@ -163,3 +163,4 @@ void showSummary(string itemNames[], int itemQty[], int itemCount) {
     cout << "-----------------------------" << endl;
     cout << "Total items in inventory: " << totalItems << endl;
 }
+
